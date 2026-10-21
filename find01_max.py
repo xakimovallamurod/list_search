@@ -1,9 +1,9 @@
 def find_max(data):
     """
-    Given the list of numbers, return the maximum number in the list
-    args:
-        data: list of numbers
-    returns: maximum number in the list
+    Allamurodning bir haftalik qadamlari ro'yxati berilgan. Eng ko'p qadam tashlangan kundagi qadamlar sonini qaytaring.
+    Argumentlar:
+        data(list): sonlar ro'yxati
+    Qaytaradi:
+        int: natija
     """
-    return 0
-    
+    return

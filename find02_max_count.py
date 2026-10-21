@@ -1,8 +1,9 @@
 def find_max_count(data):
     """
-    Given the list of numbers, Find count of maximum numbers in the list
-    args:
-        data: list of numbers
-    returns: count of maximum numbers in the list
+    Allamurodning bir haftalik qadamlari ro'yxati berilgan. Eng katta qiymat ro'yxatda necha marta uchrashini qaytaring.
+    Argumentlar:
+        data(list): sonlar ro'yxati
+    Qaytaradi:
+        int: natija
     """
-    return 0
+    return

@@ -1,9 +1,9 @@
 def find_min_odd(data):
     """
-    Given the list of numbers, Find the minimum odd number in the list
-    args:
-        data: list of numbers
-    returns: minimum odd number in the list
+    Sonlar ro'yxati berilgan. Eng kichik toq sonni qaytaring. Toq son bo'lmasa, -1 qaytaring.
+    Argumentlar:
+        data(list): sonlar ro'yxati
+    Qaytaradi:
+        int: natija
     """
-    return 0
-
+    return

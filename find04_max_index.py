@@ -1,8 +1,9 @@
 def find_max_index(data):
     """
-    Given the list of numbers, return the index of maximum number in the list
-    args:
-        data: list of numbers
-    returns: index of maximum number in the list
+    Allamurodning test ballari ro'yxati berilgan. Eng yuqori ballning indeksini qaytaring.
+    Argumentlar:
+        data(list): sonlar ro'yxati
+    Qaytaradi:
+        int: natija
     """
-    return 0
+    return

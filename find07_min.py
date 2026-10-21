@@ -1,9 +1,9 @@
 def find_min(data):
     """
-    Given the list of numbers, return the minimum number in the list
-    args:
-        data: list of numbers
-    returns: minimum number in the list
+    Allamurodning bir haftalik qadamlari ro'yxati berilgan. Eng kam qadam tashlangan kundagi qadamlar sonini qaytaring.
+    Argumentlar:
+        data(list): sonlar ro'yxati
+    Qaytaradi:
+        int: natija
     """
-
-    return 0
+    return

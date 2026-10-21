@@ -1,248 +1,393 @@
-# Xush kelibsiz
-# list_search
+# Ro'yxatdan qidirish
 
-Uy vazifalari va testlarni avtomatlashtirilgan baholash
-- ushbu repozitoriyani fork qiling
-- vazifani bajaring
-- to'g'ri xabar bilan commit qiling
-
-# Masalalar
 ## find01_max
 
-  Berilgan sonlar ro'yxati bo'yicha ro'yxatdagi eng katta sonni qaytaring.
+Allamurodning bir haftalik qadamlari ro'yxati berilgan. Eng ko'p qadam tashlangan kundagi qadamlar sonini qaytaring.
 
-**1-misol:**
-
-```Python
-Input: [1, 2, 3, 4, 5]
-Output: 5
-
-```
-**2-misol:**
+**Misol 1:**
 
 ```Python
-Input: list1 = [12, 2, 5, 2, 7, 9, 1]
-Output: 12
-
+Kirish: data=[8000, 12000, 10000, 13000, 11000, 7000, 13000]
+Chiqarish: 13000
 ```
-**Cheklovlar:**
 
-  - 2 <= length(list1) <= 10^5
+**Misol 2:**
+
+```Python
+Kirish: data=[-5, -3, -1]
+Chiqarish: -1
+```
+
+---
 
 ## find02_max_count
 
-  Berilgan sonlar ro'yxatida eng katta son necha marta uchraganligini aniqlang.
+Allamurodning bir haftalik qadamlari ro'yxati berilgan. Eng katta qiymat ro'yxatda necha marta uchrashini qaytaring.
 
-**1-misol:**
-
-```Python
-Input: [1, 8, 3, 8, 5]
-Output: 2
-
-```
-**2-misol:**
+**Misol 1:**
 
 ```Python
-Input: [13, 8, 3, 4, 9]
-Output: 1
-
+Kirish: data=[8000, 12000, 10000, 13000, 11000, 7000, 13000]
+Chiqarish: 2
 ```
-**Cheklovlar:**
 
-  - 2 <= length(list1) <= 10^5
+**Misol 2:**
+
+```Python
+Kirish: data=[1, 2, 3]
+Chiqarish: 1
+```
+
+---
 
 ## find03_max_min_sum
 
-  Berilgan sonlar ro'yxati bo'yicha eng katta va eng kichik sonlarning yig'indisini qaytaring.
+Allamurodning test ballari ro'yxati berilgan. Eng yuqori va eng past ballar yig'indisini qaytaring.
 
-**1-misol:**
-
-```Python
-Input: [1, 2, 3, 4, 5]
-Output: 6
-
-```
-**2-misol:**
+**Misol 1:**
 
 ```Python
-Input: [2, 7, 3, 4, 9]
-Output: 11
-
+Kirish: data=[87, 92, 78, 95, 78]
+Chiqarish: 173
 ```
-**Cheklovlar:**
 
-  - 2 <= length(list1) <= 10^5
+---
 
 ## find04_max_index
 
-  Berilgan sonlar ro'yxati bo'yicha eng katta sonning indeksini qaytaring.
+Allamurodning test ballari ro'yxati berilgan. Eng yuqori ballning indeksini qaytaring.
 
-**1-misol:**
-
-```Python
-Input: [1, 2, 3, 4, 5]
-Output: 4
-
-```
-**2-misol:**
+**Misol 1:**
 
 ```Python
-Input: [6, 8, 7, 4, 0]
-Output: 1
-
+Kirish: data=[87, 92, 78, 95, 78]
+Chiqarish: 3
 ```
+
+**Misol 2:**
+
+```Python
+Kirish: data=[8000, 12000, 10000, 13000, 11000, 7000, 13000]
+Chiqarish: 3
+```
+
+---
 
 ## find05_max_even
 
-  Berilgan sonlar ro'yxati bo'yicha eng katta juft sonni toping.
+Sonlar ro'yxati berilgan. Eng katta juft sonni qaytaring. Juft son bo'lmasa, -1 qaytaring.
 
-**1-misol:**
-
-```Python
-Input: [1, 4, 3, 8, 5]
-Output: 8
-
-```
-**2-misol:**
+**Misol 1:**
 
 ```Python
-Input: [7, 6, 3, 4, 9]
-Output: 6
-
+Kirish: data=[87, 92, 78, 95, 78]
+Chiqarish: 92
 ```
-**Cheklovlar:**
 
-  - 2 <= length(list1) <= 10^5
+**Misol 2:**
+
+```Python
+Kirish: data=[1, 3, 5]
+Chiqarish: -1
+```
+
+---
 
 ## find06_max_odd
 
-  Berilgan sonlar ro'yxati bo'yicha eng katta toq sonni toping, agar toq son mavjud bo'lmasa, -1 qaytaring.
+Sonlar ro'yxati berilgan. Eng katta toq sonni qaytaring. Toq son bo'lmasa, -1 qaytaring.
 
-**1-misol:**
-
-```Python
-Input: [1, 8, 3, 8, 5]
-Output: 5
-
-```
-**2-misol:**
+**Misol 1:**
 
 ```Python
-Input: [11, 7, 5, 4, 9]
-Output: 11
-
+Kirish: data=[87, 92, 78, 95, 78]
+Chiqarish: 95
 ```
-**Cheklovlar:**
 
-  - 2 <= length(list1) <= 10^5
+**Misol 2:**
+
+```Python
+Kirish: data=[2, 4, 6]
+Chiqarish: -1
+```
+
+---
 
 ## find07_min
 
-  Berilgan sonlar ro'yxati bo'yicha ro'yxatdagi eng kichik sonni qaytaring.
+Allamurodning bir haftalik qadamlari ro'yxati berilgan. Eng kam qadam tashlangan kundagi qadamlar sonini qaytaring.
 
-**1-misol:**
-
-```Python
-Input: [1, 2, -3, 4, 5]
-Output: -3
-
-```
-**2-misol:**
+**Misol 1:**
 
 ```Python
-Input: list1 = [15, 23, 3, 9, 1, 4]
-Output: 1
-
+Kirish: data=[8000, 12000, 10000, 13000, 11000, 7000, 13000]
+Chiqarish: 7000
 ```
-**Cheklovlar:**
 
-  - 2 <= length(list1) <= 10^5
+**Misol 2:**
+
+```Python
+Kirish: data=[-5, -3, -1]
+Chiqarish: -5
+```
+
+---
 
 ## find08_min_count
 
-  Berilgan sonlar ro'yxatida eng kichik son necha marta uchraganligini aniqlang.
+Allamurodning test ballari ro'yxati berilgan. Eng past ball necha marta uchrashini qaytaring.
 
-**1-misol:**
-
-```Python
-Input: [1, 8, 3, 8, 5]
-Output: 1
-
-```
-**2-misol:**
+**Misol 1:**
 
 ```Python
-Input: list1 = [0, -4, 3, 9, -2, -4]
-Output: 2
-
+Kirish: data=[87, 92, 78, 95, 78]
+Chiqarish: 2
 ```
-**Cheklovlar:**
 
-  - 2 <= length(list1) <= 10^5
+**Misol 2:**
+
+```Python
+Kirish: data=[8000, 12000, 10000, 13000, 11000, 7000, 13000]
+Chiqarish: 1
+```
+
+---
 
 ## find09_min_index
 
-  Berilgan sonlar ro'yxati bo'yicha eng kichik sonning indeksini qaytaring.
+Allamurodning bir haftalik qadamlari ro'yxati berilgan. Eng kam qadam tashlangan kunning indeksini qaytaring.
 
-**1-misol:**
-
-```Python
-Input: [1, 2, -3, 4, 5]
-Output: 2
-
-```
-**2-misol:**
+**Misol 1:**
 
 ```Python
-Input: list1 = [12, 2, 5, 2, 7, 9, 1]
-Output: 6
-
+Kirish: data=[8000, 12000, 10000, 13000, 11000, 7000, 13000]
+Chiqarish: 5
 ```
+
+**Misol 2:**
+
+```Python
+Kirish: data=[87, 92, 78, 95, 78]
+Chiqarish: 2
+```
+
+---
 
 ## find10_min_even
 
-  Berilgan sonlar ro'yxati bo'yicha eng kichik juft sonni toping.
+Sonlar ro'yxati berilgan. Eng kichik juft sonni qaytaring. Juft son bo'lmasa, -1 qaytaring.
 
-**1-misol:**
-
-```Python
-Input: [1, 8, 2, 8, 5]
-Output: 2
-
-```
-**2-misol:**
+**Misol 1:**
 
 ```Python
-Input: list1 = [7, 8, 4, 3, 5]
-Output: 4
-
+Kirish: data=[87, 92, 78, 95, 78]
+Chiqarish: 78
 ```
-**Cheklovlar:**
 
-  - 2 <= length(list1) <= 10^5
+**Misol 2:**
+
+```Python
+Kirish: data=[1, 3, 5]
+Chiqarish: -1
+```
+
+---
 
 ## find11_min_odd
 
-  Berilgan sonlar ro'yxati bo'yicha eng kichik toq sonni toping.
+Sonlar ro'yxati berilgan. Eng kichik toq sonni qaytaring. Toq son bo'lmasa, -1 qaytaring.
 
-**1-misol:**
-
-```Python
-Input: [1, 8, 2, 8, 5]
-Output: 1
-
-```
-**2-misol:**
+**Misol 1:**
 
 ```Python
-Input: list1 = [7, 8, 4, 3, 5]
-Output: 3
-
+Kirish: data=[87, 92, 78, 95, 78]
+Chiqarish: 87
 ```
-**Cheklovlar:**
 
-  - 2 <= length(list1) <= 10^5
+**Misol 2:**
 
-# Ogohlantirish
-- boshqa echimlarni yoki biror echimni nusxalamang
-- sharhlarni olib tashlamang
+```Python
+Kirish: data=[2, 4, 6]
+Chiqarish: -1
+```
+
+---
+
+## find12_second_max
+
+Allamurodning test ballari ro'yxati berilgan. Ikkinchi eng yuqori ballni qaytaring (takrorlanuvchi qiymatlar bitta hisoblanadi). Bunday ball bo'lmasa, -1 qaytaring.
+
+**Misol 1:**
+
+```Python
+Kirish: data=[87, 92, 78, 95, 95]
+Chiqarish: 92
+```
+
+**Misol 2:**
+
+```Python
+Kirish: data=[90, 90]
+Chiqarish: -1
+```
+
+---
+
+## find13_range
+
+Allamurodning bir haftalik qadamlari ro'yxati berilgan. Eng ko'p va eng kam qadamlar orasidagi farqni qaytaring.
+
+**Misol 1:**
+
+```Python
+Kirish: data=[8000, 12000, 10000, 13000, 11000, 7000, 13000]
+Chiqarish: 6000
+```
+
+**Misol 2:**
+
+```Python
+Kirish: data=[5, 5, 5]
+Chiqarish: 0
+```
+
+---
+
+## find14_max_last_index
+
+Allamurodning bir haftalik qadamlari ro'yxati berilgan. Eng katta qiymat oxirgi marta uchragan indeksni qaytaring.
+
+**Misol 1:**
+
+```Python
+Kirish: data=[8000, 12000, 10000, 13000, 11000, 7000, 13000]
+Chiqarish: 6
+```
+
+**Misol 2:**
+
+```Python
+Kirish: data=[87, 92, 78, 95, 78]
+Chiqarish: 3
+```
+
+---
+
+## find15_above_average
+
+Allamurodning bir haftalik qadamlari ro'yxati berilgan. O'rtacha qiymatdan katta bo'lgan kunlar sonini qaytaring.
+
+**Misol 1:**
+
+```Python
+Kirish: data=[8000, 12000, 10000, 13000, 11000, 7000, 13000]
+Chiqarish: 4
+```
+
+**Misol 2:**
+
+```Python
+Kirish: data=[10, 10, 10]
+Chiqarish: 0
+```
+
+---
+
+## find16_swap_max_min
+
+Allamurodning test ballari ro'yxati berilgan. Eng katta va eng kichik ballarning (birinchi uchraganlarining) o'rnini almashtirib, ro'yxatni qaytaring.
+
+**Misol 1:**
+
+```Python
+Kirish: data=[87, 92, 78, 95, 78]
+Chiqarish: [87, 92, 95, 78, 78]
+```
+
+---
+
+## find17_longest_word
+
+Allamurodning fanlari ro'yxati berilgan. Eng uzun nomli fanni qaytaring. Uzunliklari teng bo'lsa, birinchi uchraganini qaytaring.
+
+**Misol 1:**
+
+```Python
+Kirish: sozlar=["Python", "Matematika", "Ingliz tili"]
+Chiqarish: "Ingliz tili"
+```
+
+**Misol 2:**
+
+```Python
+Kirish: sozlar=["uz", "en", "ru"]
+Chiqarish: "uz"
+```
+
+---
+
+## find18_best_price
+
+Allamurod telefon sotib olmoqchi. Narxlar ro'yxati va uning puli berilgan. Puli yetadigan eng qimmat telefon narxini qaytaring. Hech biriga yetmasa, -1 qaytaring.
+
+**Misol 1:**
+
+```Python
+Kirish: narxlar=[4200000, 3950000, 5100000, 2800000], pul=4000000
+Chiqarish: 3950000
+```
+
+**Misol 2:**
+
+```Python
+Kirish: narxlar=[4200000, 5100000], pul=1000000
+Chiqarish: -1
+```
+
+---
+
+## find19_longest_growth
+
+Allamurodning bir haftalik qadamlari ro'yxati berilgan. Qadamlar ketma-ket o'sib borgan eng uzun davr necha kundan iborat ekanini qaytaring.
+
+**Misol 1:**
+
+```Python
+Kirish: data=[8000, 12000, 10000, 13000, 11000, 7000, 13000]
+Chiqarish: 2
+```
+
+**Misol 2:**
+
+```Python
+Kirish: data=[1, 2, 3, 4, 1]
+Chiqarish: 4
+```
+
+**Misol 3:**
+
+```Python
+Kirish: data=[5, 4, 3]
+Chiqarish: 1
+```
+
+---
+
+## find20_pair_sum
+
+Allamurod do'kondan aynan ikkita mahsulot olib, pulini to'liq sarflamoqchi. Narxlar ro'yxati va pul berilgan. Yig'indisi pulga teng bo'lgan birinchi juftlik indekslarini [i, j] (i < j) ko'rinishida qaytaring. Bunday juftlik bo'lmasa, bo'sh ro'yxat qaytaring.
+
+**Misol 1:**
+
+```Python
+Kirish: narxlar=[12000, 3000, 95000, 25000], pul=37000
+Chiqarish: [0, 3]
+```
+
+**Misol 2:**
+
+```Python
+Kirish: narxlar=[12000, 3000], pul=1000
+Chiqarish: []
+```
+

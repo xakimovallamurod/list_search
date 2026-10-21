@@ -1,8 +1,9 @@
 def find_min_count(data):
     """
-    Given the list of numbers, Find count of minimum numbers in the list
-    args:
-        data: list of numbers
-    returns: count of minimum numbers in the list
+    Allamurodning test ballari ro'yxati berilgan. Eng past ball necha marta uchrashini qaytaring.
+    Argumentlar:
+        data(list): sonlar ro'yxati
+    Qaytaradi:
+        int: natija
     """
-    return 0
+    return

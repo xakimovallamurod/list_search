@@ -1,9 +1,9 @@
 def find_min_index(data):
     """
-    Given the list of numbers, return the index of minimum number in the list
-    args:
-        data: list of numbers
-    returns: index of minimum number in the list
+    Allamurodning bir haftalik qadamlari ro'yxati berilgan. Eng kam qadam tashlangan kunning indeksini qaytaring.
+    Argumentlar:
+        data(list): sonlar ro'yxati
+    Qaytaradi:
+        int: natija
     """
-    return 0
-
+    return

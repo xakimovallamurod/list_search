@@ -1,8 +1,9 @@
 def find_max_even(data):
     """
-    Given the list of numbers, Find the maximum even number in the list
-    args:
-        data: list of numbers
-    returns: maximum even number in the list
+    Sonlar ro'yxati berilgan. Eng katta juft sonni qaytaring. Juft son bo'lmasa, -1 qaytaring.
+    Argumentlar:
+        data(list): sonlar ro'yxati
+    Qaytaradi:
+        int: natija
     """
-    return 0
+    return
